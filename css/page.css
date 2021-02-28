@@ -21,11 +21,16 @@ a{
     color:pink;
 
 }
+h3{
+    font-family: 'Courier New', Courier, monospace;
+}
 .home{
-    text-align: left;
-    border:grey;
-    border-style: solid;
-    background-color:ghostwhite;
-    width:3vw;
+    margin-top:8vh;
+    width:10vw;
+    margin-left:2vw;
+}
+.home img{
+    margin-top:8vh;
+    width:10vw;
     margin-left:2vw;
 }
