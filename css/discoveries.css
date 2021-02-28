@@ -1,0 +1,68 @@
+*{
+    font-family: 'DotGothic16', sans-serif;
+}
+body{
+    background-color:black;
+
+}
+img{
+    width:55vw;
+    margin:1vw;
+  }
+  h1{
+    text-align: center;
+  }
+.intro{
+      background-color:grey;
+      padding:1vw;
+  }
+.column {
+    float: left;
+    box-sizing: border-box;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.words{
+    width:40vw;
+    margin:0.5vw;
+    padding:1vw;
+}
+.inimage{
+    width:35vw;
+}
+  .icon-bar {
+    position:fixed;
+    /* margin-left:auto; */
+    width: 90%; /* Full-width */
+    background-color: #555; /* Dark-grey background */
+    overflow: auto; /* Overflow due to float */
+    left:5vw;
+    top:0vw;
+  }
+  .icon-bar a {
+    float: left; /* Float links side by side */
+    text-align: center; /* Center-align text */
+    width: 20%; /* Equal width (5 icons with 20% width each = 100%) */
+    padding: 12px 0; /* Some top and bottom padding */
+    transition: all 0.3s ease; /* Add transition for hover effects */
+    color: white; /* White text color */
+    font-size: 3vh;
+  }
+  .icon-bar a:hover {
+    background-color: #000; /* Add a hover color */
+  }
+  
+  .active {
+    background-color:#555   ; /* Add an active/current color */
+  }
+  .icon{
+    height:7vw;
+   width:9vw;
+  }
+  .upperpad{
+      height:30vh;
+  }
+ 

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href ="css/page.css">
+    <link rel= Icon href = "images/useimg/freesmall.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=JetBrains+Mono:wght@200&family=Lexend+Mega&family=Orbitron:wght@500&display=swap" rel="stylesheet">
+
+    <title>contact info</title>
+</head>
+<body>
+    <title>Example Guestbook</title>
+
+    <!-- You will need to customize this page for your own use. -->
+    <!-- See the comments included in the code for hints on customizing. -->
+  </head>
+  <body>
+      <h1>contact us</h1>
+    
+      <a href = "https://www.instagram.com/riley_m_pruitt/"> <h2>instagram</h2> </a>
+     <a herf = "email"> <h2> email us </h2> </a>
+    <h2>our sister sites</h2>
+    <!-- <ul> -->
+    <li><a href="">fumus library  </a></li>
+    <li><a href=""> taken by the land </a> </li>
+    <li><a href=""> about the artist</a></li>  
+    <div class = "home"><a href = "" > home </a></div>
+
+    <h1> Guestbook </h1>
+        <form method=post action="/cgi-bin/guestBook.pl">
+        <input type=hidden name=fields value="Name,Email,Comments">
+        Name: <input type=text name=Name><br>
+        Email Address: <input type=text name=Email><br>
+        Comments: <br><textarea name=Comments rows=5 cols=60>
+        </textarea><br>
+        <input type=submit value="Submit">
+        </form>
+        <hr noshade>
+
+
+</body>
+</html>

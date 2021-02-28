@@ -1,0 +1,31 @@
+*{
+    font-family: 'DotGothic16', sans-serif;
+}
+body{
+    background-color:rgb(32, 32, 54);
+    text-align:center;
+    color:ghostwhite;
+}
+li{
+ text-align:left;
+ margin-left:45%;
+}
+h1{
+    border:ghostwhite;
+    border-style: solid;
+    width: 33.33vw;
+    margin-left:33.33%;
+    font-size:300%;
+}
+a{
+    color:pink;
+
+}
+.home{
+    text-align: left;
+    border:grey;
+    border-style: solid;
+    background-color:ghostwhite;
+    width:3vw;
+    margin-left:2vw;
+}
