@@ -1,53 +1,112 @@
 * {
     font-family: 'DotGothic16', sans-serif;
+    letter-spacing: 2px;
     }
   body{
-      background-color:rgb(60, 56, 92);
+      background-color:rgb(62, 59, 78);
   }
   h1{
-    text-align: center;
+    background-color:rgb(62, 59, 78);
+    padding-left:1%;
+    color: white;
+  
+  }
+  hr{
+   border-top: 5px solid grey
   }
 
   .icon-bar {
     position:fixed;
-    /* margin-left:auto; */
-    width: 90%; /* Full-width */
-    background-color: #555; /* Dark-grey background */
-    overflow: auto; /* Overflow due to float */
+    width: 90%; 
+    background-color: #555; 
+    overflow: auto; 
     left:5vw;
     top:0vw;
   }
   .icon-bar a {
-    float: left; /* Float links side by side */
-    text-align: center; /* Center-align text */
-    width: 20%; /* Equal width (5 icons with 20% width each = 100%) */
-    padding: 12px 0; /* Some top and bottom padding */
-    transition: all 0.3s ease; /* Add transition for hover effects */
-    color: white; /* White text color */
+    float: left; 
+    text-align: center; 
+    width: 20%; 
+    padding: 12px 0;
+    transition: all 0.3s ease; 
+    color: white; 
     font-size: 3vh;
   }
   .icon-bar a:hover {
-    background-color: #000; /* Add a hover color */
+    background-color: #000; 
   }
   
   .active {
-    background-color:#555   ; /* Add an active/current color */
+    background-color:#555; 
   }
   .icon{
     height:7vw;
    width:9vw;
   }
+
 .showoff{
-    width:80vw;
-    background-color:orange;
-    margin:auto;
-    padding:1vw;
+  width:80vw;
+  background-color:lightgray;
+  margin:auto;
+  padding:1vw;
+  margin-top:2vh;
 }
 .showoff img{
     width:70vw;
-    /* margin-right: 10%; */
+    float:left;
+    width:20vw;
+    margin-right:2vw;
+    margin-top:3vh;
+    
+  
+}
+.showon{
+  width:80vw;
+  background-color:lightgray;
+  margin:auto;
+  padding:1vw;
+  margin-top:2vh;
+
+}
+.showon img{
+  width:70vw;
+  float:right;
+  width:20vw;
+  margin-right:2vw;
+  margin-top:11vh;
+
+
 }
 .top{
     margin-top:23vh;
+
 }
- 
+.largeimg{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: center;
+}
+.largeimg img{
+  height:60vh;
+  width:auto;
+}
+.biggerimg img{
+  margin-top:1vh;
+  height:auto;
+  width:40vw;
+}
+.last img{
+  width: 40vw;
+  margin-top: 20vh;
+}
+.infoioio{
+  width:90vw;
+  margin:auto;
+  padding: 1%;
+  padding-top:0%;
+  background-color: lightgray;
+}
+.infoioio h3{
+  text-align:center;
+  font-size:300%;
+}

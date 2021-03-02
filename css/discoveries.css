@@ -1,5 +1,6 @@
 *{
     font-family: 'DotGothic16', sans-serif;
+    letter-spacing: 2px;
 }
 body{
     background-color:black;
@@ -12,10 +13,25 @@ img{
   h1{
     text-align: center;
   }
-.intro{
+  hr{
+    border-top: 5px solid grey
+   }
+  .intro{
       background-color:grey;
       padding:1vw;
   }
+  .textpartone{
+    float:right;
+    width:30vw;
+    padding:1%;
+    background-color:white;
+    border-style: outset;
+  }
+  .textparttwo{
+    margin:1%;
+  }
+ 
+
 .column {
     float: left;
     box-sizing: border-box;
