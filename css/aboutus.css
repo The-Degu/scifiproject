@@ -14,34 +14,56 @@
   hr{
    border-top: 5px solid grey
   }
+  footer{
+    background-color: lightgray;
+    text-align:center;
+    border: 2px solid black;
+    margin:auto;
+    margin-top:3vh; 
+    margin-bottom:3vh; 
+    padding:1vh;
+    width:40vw;
+    font-size:x-small
+  }
+  footer img{
+    width:revert;
+    height:revert;
+  }
+  footer a{
+    
+  color:azure
+  }
 
   .icon-bar {
     position:fixed;
     width: 90%; 
-    background-color: #555; 
+    background-color: rgb(130, 130, 130); 
     overflow: auto; 
     left:5vw;
     top:0vw;
+    border-radius: 0px  0px 99999px 99999px;
+    box-shadow: 10px 5px 5px black;
+    border: 0.25vw white solid;
+  
   }
   .icon-bar a {
     float: left; 
     text-align: center; 
-    width: 20%; 
-    padding: 12px 0;
+    width: 18%; 
     transition: all 0.3s ease; 
     color: white; 
     font-size: 3vh;
+    height:100%;
+ 
   }
   .icon-bar a:hover {
     background-color: #000; 
+    height:100%;
   }
   
-  .active {
-    background-color:#555; 
-  }
   .icon{
-    height:7vw;
-   width:9vw;
+    height:15vh;
+   width:auto;
   }
 
 .showoff{
@@ -89,15 +111,19 @@
 .largeimg img{
   height:60vh;
   width:auto;
+  border: 5px outset;
 }
 .biggerimg img{
   margin-top:1vh;
   height:auto;
   width:40vw;
+  border: 5px outset;
 }
 .last img{
   width: 40vw;
   margin-top: 20vh;
+  border: 5px outset;
+  
 }
 .infoioio{
   width:90vw;

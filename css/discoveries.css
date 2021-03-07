@@ -9,6 +9,7 @@ body{
 img{
     width:55vw;
     margin:1vw;
+    border:3px solid lightgrey;
   }
   h1{
     text-align: center;
@@ -49,36 +50,56 @@ img{
 .inimage{
     width:35vw;
 }
-  .icon-bar {
-    position:fixed;
-    /* margin-left:auto; */
-    width: 90%; /* Full-width */
-    background-color: #555; /* Dark-grey background */
-    overflow: auto; /* Overflow due to float */
-    left:5vw;
-    top:0vw;
-  }
-  .icon-bar a {
-    float: left; /* Float links side by side */
-    text-align: center; /* Center-align text */
-    width: 20%; /* Equal width (5 icons with 20% width each = 100%) */
-    padding: 12px 0; /* Some top and bottom padding */
-    transition: all 0.3s ease; /* Add transition for hover effects */
-    color: white; /* White text color */
-    font-size: 3vh;
-  }
-  .icon-bar a:hover {
-    background-color: #000; /* Add a hover color */
-  }
-  
-  .active {
-    background-color:#555   ; /* Add an active/current color */
-  }
-  .icon{
-    height:7vw;
-   width:9vw;
-  }
+.icon-bar {
+  position:fixed;
+  width: 90%; 
+  background-color: rgb(130, 130, 130); 
+  overflow: auto; 
+  left:5vw;
+  top:0vw;
+  border-radius: 0px  0px 99999px 99999px;
+  box-shadow: 10px 5px 5px black;
+  border: 0.25vw white solid;
+
+}
+.icon-bar a {
+  float: left; 
+  text-align: center; 
+  width: 18%; 
+  transition: all 0.3s ease; 
+  color: white; 
+  font-size: 3vh;
+  height:100%;
+
+}
+.icon-bar a:hover {
+  background-color: #000; 
+  height:100%;
+}
+
+.icon{
+  height:15vh;
+ width:auto;
+ border:none;
+} 
   .upperpad{
-      height:30vh;
+      height:23vh;
   }
  
+  footer{
+    opacity: 0.7;
+    background-color: lightgray;
+    text-align:center;
+    margin-top:3vh; 
+    margin-bottom:3vh;
+    padding:1vh;
+    width:40vw;
+    font-size:x-small
+  }
+ footer img{
+    width:revert;
+    height:revert;
+  }
+footer a{
+  color:azure
+  }
