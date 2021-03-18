@@ -1,16 +1,20 @@
 *{
     font-family: 'DotGothic16', sans-serif;
     letter-spacing: 2px;
+    color:white;
+    margin:0px;
 }
 body{
     background-color:rgb(32, 32, 54);
-    text-align:center;
-    color:ghostwhite;
-}
+    text-align:center;;
+    background-image:url("../images/useimg/spacegif.gif");
+    background-repeat: repeat;
+}   
 li{
  text-align:left;
  margin-left:45%;
 }
+
 h1{
     border:ghostwhite;
     border-style: solid;
@@ -25,6 +29,15 @@ a{
 h3{
     font-family: 'Courier New', Courier, monospace;
 }
+hr{
+    border: 10px outset;
+    opacity:  0.5;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+.bg{
+   
+}
 .home{
     margin-top:8vh;
     width:10vw;
@@ -35,3 +48,4 @@ h3{
     width:10vw;
     margin-left:2vw;
 }
+
