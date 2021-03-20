@@ -26,6 +26,9 @@
     font-weight: bolder;
     font-size:large;
   }
+  li{
+    padding:1%;
+  }
   footer{
     background-color: lightgray;
     text-align:center;
@@ -67,16 +70,41 @@
     height:100%;
   
   }
-  .icon-bar a:hover {
-    background-color: #000; 
-    height:100%;
-  }
+
   
   .icon{
     height:15vh;
    width:auto;
    border:none;
   } 
+
+
+  .collapsible {
+    background-color: rgb(62, 59, 78);
+    border-top-right-radius:999999px;
+    color: white;
+    cursor: pointer;
+    text-shadow: 4px 4px black;
+    padding: 2vw;
+    width: 100%;
+    border: inset;
+    text-align: left;
+    outline: none;
+    font-size: 140%;
+    font-weight:bold;
+    border-bottom: none;
+  }
+  
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: rgb(62, 59, 78);
+    color:white;
+    text-shadow: 3px 3px black;
+    border:inset;
+    border-top:none;
+  }
 
 .showoff{
   border:outset;
@@ -174,5 +202,9 @@
 .infoioio p{
   text-align: center;
   text-indent:0vw;
+}
+.hiddenlink{
+  color:black;
+  text-decoration: none;
 }
 
